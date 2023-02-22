@@ -1,9 +1,9 @@
 import Product from './components/Product';
 import './components/Product.css';
+import Card from './components/Card';
 function App() {
-
 	return (
-		<div>
+		<Card>
 			<Product
 				title='iPhone 13 Pro'
 				description='Best smartphone ever'
@@ -14,7 +14,7 @@ function App() {
 				description='Smartest laptop ever'
 				price={1499.99}
 			/>
-		</div>
+		</Card>
 	);
 }
 
